@@ -1,0 +1,102 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Music History</title>
+  <link rel="stylesheet" type= "text/css" href="styles.css">
+  <!-- <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'> -->
+</head>
+
+
+
+<body>
+
+    <nav>
+      <ul>
+        <li class="navbar" ><a href="#" id="link-list"> View Music</a></li>
+        <li class="navbar" ><a href="#" id="link-add"> Add Music</a></li>
+        
+      </ul>
+    </nav>
+
+    <div class="wrapper">
+
+      <section id="container">
+
+
+
+       <label for="Song Length:">Song Length:</label>
+    <br>  
+        <input type="range" placeholder="Song Length">
+
+      
+    <br>
+      <p>Artist:</p>
+      <select name="Artist">
+        <option value="Strumbellas">The Strumbellas</option>
+        <option value="ZZ">ZZ Top</option>
+        <option value="Super">Super Tramp</option>
+        <option value="Pink">Pink Floyd</option>
+      </select>
+
+
+
+    <br>
+
+      <p> Album: </p>
+      <select name="Album">
+        <option value="TBA">TBA</option>
+        <option value="Elim">Eliminator</option>
+        <option value="Breakfast">Breakfast in America</option>
+        <option value="Wall">The Wall</option>
+      </select>
+    <br>
+    <br>  
+      <label for="Genre">Genre:</label>
+
+    <br>
+
+      <input type="checkbox">Rock 
+      <input type="checkbox">Classical
+    <br>
+    <br>
+      <input type="checkbox">Pop 
+      <input type="checkbox">Jazz
+    <br>
+    <br>
+      <input type="checkbox">Blues
+      <input type="checkbox">Hip Hop
+    <br>
+    <br>
+      <button type="Submit" class="filter">Filter</button>
+
+</section>
+
+
+<section id="list-view">
+
+</section>
+
+  </div>
+<!-- This is the "add-view"/"link-add" -->
+
+<section id="add-view">
+      <input type="text" id="userSong"placeholder="Enter Song"> </input>
+      <input type="text" id="userArtist" placeholder="Enter Artist"> </input>
+      <input type="text" id="userAlbum" placeholder="Enter Album"> </input>
+      <button id="add">Add</button>
+
+</section>
+
+
+
+      <script type="text/javascript" src="songs.js"></script>
+      <script type="text/javascript" src="list.js"></script>
+      <script type="text/javascript" src="add.js"></script>
+
+  </body>
+
+
+
+</html>
